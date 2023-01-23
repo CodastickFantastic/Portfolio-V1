@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dcdcdc;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Purple Text Styling */
+.purple-text {
+  color: #5520ac;
+}
+
+/* Bold Text Styling */
+
+.bold{
+  font-weight: 600;
+}
+
+/* Tile Background Styling */
+.background-tile {
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5620acac;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(85, 32, 172, 1);
+  -moz-box-shadow: 0px 0px 20px 0px rgba(85, 32, 172, 1);
+  box-shadow: 0px 0px 20px 0px rgba(85, 32, 172, 1);
+}
+
+/* Navbar Section Styling */
+header {
+  background-color: #5520ac;
+  height: 100vh;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header .nav-item {
+  margin-top: 20px;
+}
+
+header .nav-icon {
+  width: 30px;
+}
+
+header .nav-description {
+  display: none;
+}
+
+/* Main Section Styling */
+
+main {
+  margin-left: 80px;
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  /* background-color: gold; */
+}
+
+/* Home Section Styling */
+
+#home {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Avatar Styling */
+#avatar-container {
+  position: relative;
+  width: 460px;
+  height: 350px;
+}
+
+#avatar {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#shadow1,
+#shadow2,
+#shadow3 {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  background-color: #5620aca0;
+}
+
+#shadow2 {
+  left: 40px;
+  background-color: #5620ac67;
+}
+
+#shadow3 {
+  left: 60px;
+  background-color: #5620ac45;
+}
+
+/* Protfolio Description Styling */
+
+#portfolio-description {
+  width: 400px;
+}
+
+#portfolio-description h1 {
+  font-size: 2.5rem;
+}
+
+#home-btn {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-top: 1em;
+}
+
+#download-cv {
+  padding: 0.6em 1em;
+  background-color: #5520ac;
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  margin-right: 1em;
+}
+
+#download-cv:hover {
+  transform: scale(1.1);
+}
+
+#github {
+  height: 100%;
+}
+
+#github img {
+  height: 100%;
+}
+
+#github img:hover {
+  transform: scale(1.2);
+}
+
+/* Sections Styling */
+
+.section {
+  margin-top: 3em;
+}
+
+.section-header {
+  position: relative;
+}
+
+.section-header .divider::before {
+  content: "";
+  display: inline;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  height: 2px;
+  width: 50px;
+  background-color: #5520ac;
+}
+
+.section-header .divider {
+  margin-left: 60px;
+  color: #5520ac;
+}
+
+.section-header h2 {
+  margin-left: 60px;
+}
+
+.in-section-wraper {
+  border: 1px solid #5520ac;
+  width: 85%;
+  margin: 1em auto 0;
+  border-radius: 20px;
+  padding: 1em 2em;
+}
+
+/* Section Flex Styling */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tech Stack Section Styling */
+
+.tech-stack-item {
+  flex-direction: column;
+  width: 110px;
+  height: 110px;
+  font-weight: bolder;
+  margin: 15px;
+}
+
+.tech-stack-item img {
+  height: 70px;
+}
+
+.tech-stack-item p {
+  font-size: 0.8rem;
+  color: white;
+}
+
+/* Projects Section Styling */
+.project{
+    padding: 1em;
+    width: 100%;
+    color: white;
+    margin: 1.5em 0;
+    font-size: 0.9rem;
+}
+
+.projects-slider{
+  margin-right: 25px;
+}
+
+.projects-slider .vertical{
+    width: 350px;
+}
+
+.projects-slider .horizontal{
+  width: 450px;
+}
+
+.project-description h3{
+  font-size: 1.2rem;
+}
+
+.project-description > ol{
+  margin-left: 25px;
+}
+
+.project-description > ul {
+  margin-left: 25px;
+  margin-bottom: 1em;
+}
+
+.project-description > ul ul{
+  margin-left: 25px;
+}
+
+.project .project-btn-section{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project .project-btn{
+  padding: 0.5em 1em;
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.project .project-btn:hover{
+  transform: scale(1.2);
+}
+
