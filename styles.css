@@ -323,7 +323,7 @@ main {
 }
 
 .projects-slider .horizontal {
-  width: 450px;
+  width: 100%;
 }
 
 .project-description {
@@ -428,6 +428,10 @@ footer {
   #shadow3 {
     width: 290px;
     height: 290px;
+  }
+  #portfolio-description {
+    width: 100%;
+    padding: 10px;
   }
   .in-section-wraper {
     width: 95%;
