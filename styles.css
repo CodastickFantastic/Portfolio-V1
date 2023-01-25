@@ -437,6 +437,11 @@ footer {
     padding: 10px;
     margin-top: 200px;
   }
+
+  #home-btn{
+    display: flex;
+    justify-content: center;
+  }
   .in-section-wraper {
     width: 95%;
     padding: 1em;
@@ -468,7 +473,7 @@ footer {
   }
 }
 
-@media(width < 380px){
+@media(width < 372px){
   #portfolio-description h1{
     font-size: 1.8rem;
   }
