@@ -407,6 +407,8 @@ footer {
   #home {
     flex-direction: column;
     width: 100%;
+    height: 530px;
+    margin-top: 1.5em;
   }
   #avatar-container {
     margin-bottom: 10px;
@@ -430,11 +432,13 @@ footer {
     height: 290px;
   }
   #portfolio-description {
+    max-width: 450px;
     width: 100%;
     padding: 10px;
   }
   .in-section-wraper {
     width: 95%;
+    padding: 1em;
   }
   .project {
     flex-direction: column;
@@ -451,11 +455,14 @@ footer {
   .project .vertical {
     width: 250px;
   }
+
   .contact-details {
     flex-direction: column;
+    width: 100%;
   }
   #contact .contact-info {
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     margin: 20px 0;
   }
 }
