@@ -389,6 +389,11 @@ footer {
   text-align: center;
 }
 
+#contact .contact-info a{
+  text-decoration: none;
+  color: white;
+}
+
 @media (max-width: 960px) {
   body {
     flex-direction: column;
