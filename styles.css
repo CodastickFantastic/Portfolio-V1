@@ -389,7 +389,7 @@ footer {
   text-align: center;
 }
 
-@media (width < 960px) {
+@media (max-width: 960px) {
   body {
     flex-direction: column;
   }
@@ -473,7 +473,7 @@ footer {
   }
 }
 
-@media(width < 372px){
+@media(max-width: 372px){
   #portfolio-description h1{
     font-size: 1.8rem;
   }
